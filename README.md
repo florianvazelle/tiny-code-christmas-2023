@@ -11,4 +11,4 @@ My demoscenes on [TIC-80](https://tic80.com/) for [Tiny Code Christmas](https://
 | Day        | Size                                                                                       |
 |------------|--------------------------------------------------------------------------------------------|
 | 1 - Shapes | ![](https://img.badgesize.io/florianvazelle/tiny-code-christmas-2023/main/day1_shapes.lua) |
-| 2 - Time   | ![](https://img.badgesize.io/florianvazelle/tiny-code-christmas-2023/main/day2_shapes.lua) |
+| 2 - Time   | ![](https://img.badgesize.io/florianvazelle/tiny-code-christmas-2023/main/day2_time.lua) |

@@ -1,9 +1,15 @@
+h=136
 function TIC()
-    cls(9)t=0;c=6
-    for h=0,136 do
-        line(120-t,h,120+t,h,c)t=t+1
-        if h%20==0 then t=t-t/3 end
-        if h>108 then t=5;c=3 end
-    end
-    for x=2,240,18 do for y=0,136,30 do rect(x,(x+y+time()*0.05)%136,2,2,12)end end
+ cls(9)
+ for i=0,5 do
+  j=(i+1)*9;
+  tri(120,i*15,120-j,j*2,120+j,j*2,6)
+ end
+ rect(115,108,10,50,3)
+ for i=0,16 do
+  x=2+i*15;y=i*30
+  d=time()/20
+  rect(x,(x+y+d)%h,2,2,12)
+  d=d/100;tri(x,h-d,x-8-d,h,x+9+d,h,12)
+ end
 end

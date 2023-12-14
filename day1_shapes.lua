@@ -1,8 +1,8 @@
 function TIC()
-    cls(9)t=0;c=6
-    for h=0,136 do
-        line(120-t,h,120+t,h,c)t=t+1
-        if h%20==0 then t=t-t/3 end
-        if h>108 then t=5;c=3 end
-    end
+ cls(9)
+ for i=0,5 do
+  j=i+1;j=j*9
+  tri(120,i*15,120-j,j*2,120+j,j*2,6)
+ end
+ rect(115,6*18,10,50,3)
 end

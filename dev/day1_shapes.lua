@@ -12,25 +12,17 @@ BROWN = 3
 function BOOT()
     cls(BLUE)
 
-    t = 0
-    color = GREEN
-
     -- tree
-    for height = 0, MAX_HEIGHT do
-        line(CENTER_WIDTH - t, height, CENTER_WIDTH + t, height, color)
-        t = t + 1
-
-        -- branch
-        if height % 20 == 0 then
-            t = t - (t / 3)
-        end
-
-        -- trunk
-        if height > (MAX_HEIGHT / 5) * 4 then
-            t = 5
-            color = BROWN
-        end
+    for i = 0, 5 do
+        j = i + 1
+        tri(CENTER_WIDTH, i * 15,
+            CENTER_WIDTH - j * 9, j * 18,
+            CENTER_WIDTH + j * 9, j * 18,
+            GREEN)
     end
+
+    -- trunk
+    rect(CENTER_WIDTH - 5, 6 * 18, 10, 50, BROWN)
 end
 
 function TIC() end

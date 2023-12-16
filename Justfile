@@ -22,5 +22,5 @@ venv_dir := justfile_directory() / "venv"
 
 # Run files formatters
 fmt:
-    just venv pip install pre-commit==3.3.3
+    just venv pip install pre-commit==3.6.0
     just venv pre-commit run -a

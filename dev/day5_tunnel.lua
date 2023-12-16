@@ -3,6 +3,8 @@ function TIC()
 
  for x = 0, 240 do
   for y = 0, 136 do
+   t = time() * 0.0003
+
    cx = x - 120
    cy = y - 68
 
@@ -15,7 +17,6 @@ function TIC()
     * math.atan2(cy, cx)
     / math.pi
    )
-   t = time() * 0.0003
    pix(x, y, math.floor((angle + 16 * 0.25 * t) + (distance + 16 * t)))
   end
  end

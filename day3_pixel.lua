@@ -1,7 +1,6 @@
 function TIC()
- for x=0,240 do
-  for y=0,136 do
-   pix(x,y,(x+y+time())%15)
-  end
+ for i=0,4e4 do
+  x=i%240;y=i/240
+  pix(x,y,(x+y+time())%15)
  end
 end

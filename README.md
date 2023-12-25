@@ -46,3 +46,27 @@ My demoscenes on [TIC-80](https://tic80.com/) for [Tiny Code Christmas](https://
 ![](https://img.badgesize.io/florianvazelle/tiny-code-christmas-2023/main/day6_demoscene.lua)
 
 ![](./gifs/day6_demoscene.gif)
+
+## Day 7 - Mix and Match
+
+![](https://img.badgesize.io/florianvazelle/tiny-code-christmas-2023/main/day7_mix.lua)
+
+![](./gifs/day7_mix.gif)
+
+## Day 8 - Round and Round
+
+![](https://img.badgesize.io/florianvazelle/tiny-code-christmas-2023/main/day8_tentacle.lua)
+
+![](./gifs/day8_tentacle.gif)
+
+## Day 9 - Shade the Bob
+
+![](https://img.badgesize.io/florianvazelle/tiny-code-christmas-2023/main/day9_shadebob.lua)
+
+![](./gifs/day9_shadebob.gif)
+
+## Day 10 - The Big Squeeze
+
+![](https://img.badgesize.io/florianvazelle/tiny-code-christmas-2023/main/day10_squeeze.lua)
+
+![](./gifs/day10_squeeze.gif)
